@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SM Bank Dashboard</title>
     <!-- Tailwind Css  -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="text-6xl text-center mt-5">SM Bank<span class="text-emerald-600 font-semibold"> Dashboard</span></h1> 
-       </header>
-    
-</body>
+      <h1 class="text-6xl text-center mt-5">
+        SM Bank<span class="text-emerald-600 font-semibold"> Dashboard</span>
+      </h1>
+    </header>
+    <main>
+        <!-- Deposit ,withdraw,Balance -->
+      <section class="mt-12">
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+          <div class="bg-green-600 p-8 rounded-xl">
+            <h4 class="text-2xl">Deposit</h4>
+            <h2 class="text-5xl">$00</h2>
+          </div>
+          <div class="bg-amber-600 p-8 rounded-xl">
+            <h4 class="text-2xl">withdraw</h4>
+            <h2 class="text-5xl">$00</h2>
+          </div>
+          <div class="bg-blue-600 p-8 rounded-xl">
+            <h4 class="text-2xl">Balance</h4>
+            <h2 class="text-5xl">$00</h2>
+          </div>
+        </div>
+      </section>
+      
+
+      
+    </main>
+  </body>
 </html>
